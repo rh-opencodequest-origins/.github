@@ -1,4 +1,5 @@
-Organizations often struggle with a variety of circumstances that can impact productivity within the teams (high cognitive load, lack of standardization, domain knowledge fragmentation).  +
+# Introductions
+Organizations often struggle with a variety of circumstances that can impact productivity within the teams (high cognitive load, lack of standardization, domain knowledge fragmentation). 
 This could result in inefficient or reduced Productivity, higher maintenance costs and/or security vulnerabilities.
 
 Red Hat provides the tools and know-how to help "The Providers" (The Platform Engineers) to create "The Product" (their custom IDP) based on the needs of "The Customers" (all Development Teams within the organization).
@@ -13,7 +14,7 @@ Development Teams who are  in charge of creating a software solution and empower
 
 
 
-*What attendees will  learn:*
+# What attendees will  learn:
 
 * Understand the need to implement Platform Engineering disciplines in their organization and see the clearly benefits of improving the Developer Productivity
 * How to design a Thinest Viable Platform (TVP) based on the needs of ALL development teams in the organization and ensure they are highly productive as possible
@@ -22,4 +23,11 @@ Development Teams who are  in charge of creating a software solution and empower
 
 
 
+# Running this workshop in your OpenShift environment
 
+Run the ansible playbook form the `ansible` repo
+```
+git clone https://github.com/redhat-pe-workshop/ansible
+cd ansible
+ansible-playbook playbooks/ocp4_workload_platform_engineering_workshop.yml -e ACTION=create
+```
