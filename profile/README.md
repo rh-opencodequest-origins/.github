@@ -31,3 +31,7 @@ git clone https://github.com/redhat-pe-workshop/ansible
 cd ansible
 ansible-playbook playbooks/ocp4_workload_platform_engineering_workshop.yml -e ACTION=create
 ```
+
+# Instructions preview (without a server)
+
+https://redhat-pe-workshop.github.io/showroom/modules/index.html
